@@ -1,0 +1,33 @@
+.notes{
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px #000;
+    padding: 10px;
+    width: 250px;
+    margin: 16px;
+    float: left;
+}
+
+.notes h1{
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.notes p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.notes button{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color:#ffc107;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}

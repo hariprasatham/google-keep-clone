@@ -1,0 +1,44 @@
+.take-note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.take-note-form{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.take-note-form input{
+    border: none;
+    padding: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.take-note-form .title{
+    font-size: 20px;
+}
+
+.take-note-form .note{
+    font-size: 16px;
+}
+
+.take-note-form button{
+    right: -520px;
+    bottom: -18px;
+    background: #FFC107;
+    color: white;
+}
+
+.take-note-form button:hover{
+    background: rgba(255,193,7, 0.9);
+}
